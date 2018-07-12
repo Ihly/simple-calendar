@@ -1,0 +1,25 @@
+DOCTYPE(html)
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        meta(http-equiv="X-UA-Compatible", content="ie=edge")
+        link(rel="stylesheet", href="css/base.css")
+        script(src="js/script.js")
+        title Calendar
+    body
+        #calendar
+            #month 
+                a(href="").calendar-arrow.arrow-left
+                    include img/svg/arrow-left.svg 
+                #monthName
+                a(href="").calendar-arrow.arrow-right
+                    include img/svg/arrow-right.svg
+            #date
+                .weekday Mon
+                .weekday Tue
+                .weekday Wed
+                .weekday Thu
+                .weekday Fri
+                .weekday Sat
+                .weekday Sun
